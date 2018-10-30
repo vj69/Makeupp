@@ -2,7 +2,9 @@
     width: 960px;
     background-color: blanchedalmond;
 }
-
+.eightyPercent {
+    width: 80%;
+}
 .marginCenter {
     margin-right: auto;
     margin-left: auto;
@@ -30,8 +32,8 @@
 }
 
 #top {
-    height: 100px;
-    line-height: 100px;
+    height: 135px;
+    line-height: 135px;
 }
 
 .clearMargin {
@@ -57,6 +59,20 @@
     padding-left: 24px;
     padding-right: 24px;
 }
+.grFont {
+    line-height: 27px;
+    font-size: 16px;
+
+}
+
+.Helvetica {
+    font-family: "Helvetica Neue";
+}
+.logoPic {
+    height: 100px;
+}
+
+
 .textRight {
     text-align: right;
 }
@@ -69,4 +85,8 @@
 
 .alignRight {
     text-align: right;
+}
+
+.alignCenter {
+    text-align: center;
 }
