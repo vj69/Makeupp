@@ -2,8 +2,18 @@
     width: 960px;
     background-color: blanchedalmond;
 }
-.eightyPercent {
-    width: 80%;
+.fullPercent {
+    width: 100%;
+    height: 100%;
+}
+.textCenter {
+    text-align: center;
+}
+#sideCard {
+    padding: 18px;
+}
+.thinBorder {
+    border: 1px black solid;
 }
 .marginCenter {
     margin-right: auto;
@@ -20,11 +30,16 @@
 
 #banner {
 
-    background-image: url("../images/beer.jpg");
-    background-size: contain;
+    background-image: url("../images/happy.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 367px;
 
+}
+#banner h1 {
+    position: relative;
+    top: 115px;
+    left: 100px;
 }
 
 .floatLeft {
@@ -64,12 +79,11 @@
     font-size: 16px;
 
 }
-
+#logo {
+    height: 135px;
+}
 .Helvetica {
     font-family: "Helvetica Neue";
-}
-.logoPic {
-    height: 100px;
 }
 
 
@@ -79,8 +93,9 @@
 
 
 #panel1, #panel2, #panel3 {
-
-    width: 320px;
+    padding-left: 18px;
+    padding-right: 18px;
+    width: 284px;
 }
 
 .alignRight {
