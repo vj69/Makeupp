@@ -1,20 +1,89 @@
+body {
+    overflow: scroll;
+
+}
+
 #wrapper {
     width: 960px;
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
 }
+#top {
+    height: 135px;
+    line-height: 135px;
+}
+#logo {
+    height: 135px;
+}
+
+#sideCard {
+    padding: 18px;
+}
+#banner {
+    background-image: url("../images/happy.jpg");
+    background-size: cover;
+    height: 367px;
+    position: relative;
+}
+#main {
+    margin-top: 31px;
+}
+#panel1, #panel2, #panel3 {
+    width: 320px;
+}
+#footer {
+    height: 100px;
+    line-height: 100px;
+}
+
+#banner h1 {
+    position: relative;
+    top: 115px;
+    left: 100px;
+}
+.contentMargin {
+    margin-left: 31px;
+    margin-right: 31px;
+}
+.contentText {
+    margin-left: 31px;
+}
+.panelMargin {
+    margin-left: 62px;
+    margin-right: 31px;
+}
+.panelOlMargin {
+    margin-left: 31px;
+    margin-right: 31px;
+}
+
+.panelHeadingMargin {
+    margin-left:31px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+.topMargin {
+    margin-top: 31px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 .fullPercent {
     width: 100%;
     height: 100%;
 }
+
 .textCenter {
     text-align: center;
 }
-#sideCard {
-    padding: 18px;
-}
+
 .thinBorder {
     border: 1px black solid;
 }
+
 .marginCenter {
     margin-right: auto;
     margin-left: auto;
@@ -23,38 +92,22 @@
 .displayInline {
     display: inline;
 }
+
 .sqrPadding {
     padding-left: 31px;
     padding-right: 31px;
 }
-
-#banner {
-
-    background-image: url("../images/happy.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 367px;
-
+.wrapperPaddingRight {
+    padding-right: 31px;
 }
-#banner h1 {
-    position: relative;
-    top: 115px;
-    left: 100px;
-}
-
 .floatLeft {
     float: left;
 }
 
-#top {
-    height: 135px;
-    line-height: 135px;
-}
-
 .clearMargin {
-
     margin: 0px;
 }
+
 .clearPadding {
     padding: 0px;
 }
@@ -62,40 +115,32 @@
 .clearFix {
     clear: both;
 }
-
-.grSmall {
-    width: 329px;
+.grSmallPadding {
     padding-left: 19px;
     padding-right: 19px;
 }
-
-.grBig {
-    width: 545px;
+.grSmall {
+    width: 329px;
+}
+.grBigPadding {
     padding-left: 24px;
     padding-right: 24px;
 }
+.grBig {
+    width: 600px;
+}
+
 .grFont {
     line-height: 27px;
     font-size: 16px;
+}
 
-}
-#logo {
-    height: 135px;
-}
 .Helvetica {
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 
 .textRight {
     text-align: right;
-}
-
-
-#panel1, #panel2, #panel3 {
-    padding-left: 18px;
-    padding-right: 18px;
-    width: 284px;
 }
 
 .alignRight {
