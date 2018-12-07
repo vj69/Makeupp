@@ -1,5 +1,6 @@
 body {
     overflow: scroll;
+    background-image: -webkit-linear-gradient(top, #ff5a00, #FFAE00)
 
 }
 
@@ -21,7 +22,7 @@ body {
 #banner {
     background-image: url("../images/logo.jpg");
     background-size: cover;
-    height: 367px;
+    height: 550px;
     position: relative;
 }
 #main {
