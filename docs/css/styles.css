@@ -145,3 +145,17 @@ a:hover {
     webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
+.a {
+    color: #000000;
+    -webkit-transition: color 1s ease-in; /*safari and chrome */
+    -moz-transition: color 1s ease-in; /* firefox */
+    -o-transition: color 1s ease-in; /* opera */
+}
+.a:hover {
+    color: #cc0a0a;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-column-gap: 250px;
+}
