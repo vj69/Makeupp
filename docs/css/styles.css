@@ -49,16 +49,10 @@ body {
     margin-left: 31px;
 }
 .panelMargin {
-    margin-left: 62px;
-    margin-right: 31px;
-}
-.panelOlMargin {
-    margin-left: 31px;
     margin-right: 31px;
 }
 
 .panelHeadingMargin {
-    margin-left:31px;
     margin-top: 0px;
     margin-bottom: 16px;
 }
@@ -79,10 +73,6 @@ a:hover {
 
 .textCenter {
     text-align: center;
-}
-
-.thinBorder {
-    border: 1px black solid;
 }
 
 .marginCenter {
